@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My E-Commerce Store</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<h1>🛒 My E-Commerce Store</h1>
+
+<div class="cart-link">
+    <a href="/cart">🛍️ View Cart</a>
+</div>
+
+<div class="products">
+
+    <!-- Laptop -->
+    <div class="product">
+        <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853"
+             alt="Laptop">
+        <h2>Laptop</h2>
+        <p>Price: ₹55000</p>
+        <a href="/add/1"><button>Add to Cart</button></a>
+    </div>
+
+    <!-- Smartphone -->
+    <div class="product">
+        <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9"
+             alt="Smartphone">
+        <h2>Smartphone</h2>
+        <p>Price: ₹25000</p>
+        <a href="/add/2"><button>Add to Cart</button></a>
+    </div>
+
+    <!-- Headphones -->
+    <div class="product">
+        <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e"
+             alt="Headphones">
+        <h2>Headphones</h2>
+        <p>Price: ₹2000</p>
+        <a href="/add/3"><button>Add to Cart</button></a>
+    </div>
+
+    <!-- Keyboard -->
+    <div class="product">
+        <img src="https://images.unsplash.com/photo-1587829741301-dc798b83add3"
+             alt="Keyboard">
+        <h2>Keyboard</h2>
+        <p>Price: ₹1500</p>
+        <a href="/add/4"><button>Add to Cart</button></a>
+    </div>
+
+    <!-- Mouse -->
+    <div class="product">
+        <img src="https://images.unsplash.com/photo-1527814050087-3793815479db"
+             alt="Mouse">
+        <h2>Mouse</h2>
+        <p>Price: ₹800</p>
+        <a href="/add/5"><button>Add to Cart</button></a>
+    </div>
+
+</div>
+
+</body>
+</html>
